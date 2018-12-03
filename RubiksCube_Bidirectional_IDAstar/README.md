@@ -1,4 +1,7 @@
-Optimal Rubik's Cube Solver
+Bi-directional search applied to  Pacman and Rubik’s cube problem.
+
+************************************************************************************
+Bidirectional Iterative Deepening A* Rubik's Cube Solver
 ==========
 
 [Rushikesh Sargar](https://github.com/RishiSargar)
