@@ -145,14 +145,16 @@ public class BD_IDAStar {
 	 */
 	private static TwoEnds search(int bound,int ultabound,boolean verbose) {
 		TwoEnds end=new TwoEnds();
+		nodesVisited++;
 		CubeNode current=null;
 		CubeNode current_end=null;
 		//System.out.println("Top-down bound "+bound+" Bottom-up "+ultabound);
 
 		while (!frontier.isEmpty() || !frontier_end.isEmpty()) {
+			nodesVisited++;
 			if(!frontier.isEmpty())
 			{	
-				nodesVisited++;
+				
 				//Considers the first node in queue for top-down approach
 				current	=frontier.poll();
 				//System.out.println("Top Down approach current path: "+current.path+" state: "+new String(current.state));
