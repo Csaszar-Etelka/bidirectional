@@ -1,5 +1,30 @@
 Bi-directional search applied to  Pacman and Rubik’s cube problem.
 
+
+Pacman Bidirectional Search
+==========
+python pacman.py -l [Maze] -p SearchAgent -a fn=[search_algorithm]
+
+Maze can be one of the following:
+
+1. tinyMaze
+2. smallMaze
+3. mediumMaze
+4. bigMaze
+
+fn can be one of the following:
+
+1. bfs = breadthFirstSearch
+2. dfs = depthFirstSearch
+3. astar = aStarSearch
+4. ucs = uniformCostSearch
+5. **bi = bidirection**
+
+Example Usage:
+python pacman.py -l tinyMaze -p SearchAgent -a fn=bi
+
+
+
 ************************************************************************************
 Bidirectional Iterative Deepening A* Rubik's Cube Solver
 ==========

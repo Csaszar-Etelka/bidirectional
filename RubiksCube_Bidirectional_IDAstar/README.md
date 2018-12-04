@@ -1,4 +1,7 @@
-Optimal Rubik's Cube Solver
+Bi-directional search applied to  Pacman and Rubik’s cube problem.
+
+************************************************************************************
+Bidirectional Iterative Deepening A* Rubik's Cube Solver
 ==========
 
 [Rushikesh Sargar](https://github.com/RishiSargar)
@@ -20,7 +23,7 @@ Solution
 -----------
 - Representing a 3D cube in a 2D state
 - Generating 3 distinct pattern databases: corner cubies, edge cubies set 1, edge cubies set 2
-- Performing Bidirectional Iterative Deepening A* (IDA*) search on the possible moves using the 3 aforementioned pattern databases as the heuristic look up tables
+- Performing Bidirectional Iterative Deepening A* (BD_IDA*) search on the possible moves using the 3 aforementioned pattern databases as the heuristic look up tables
 - Return an optimal solution in the form of the face to turn and how many clockwise turns to do
 
 Relaxed Constraints
