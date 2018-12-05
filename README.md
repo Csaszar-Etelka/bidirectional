@@ -36,10 +36,6 @@ Bidirectional Iterative Deepening A* Rubik's Cube Solver
 ASU CSE571 - Artificial Intelligence "Fall 2018" "Bidirectional Search to Solve Rubik's Cube"
 
 
-[Bob Nisco](https://github.com/BobNisco), [Mike Hunter](https://github.com/acer149) |
-Marist College - CMSC 404 - Artificial Intelligence Project
-
-
 Problem
 -----------
 Given any Rubik's Cube state, return a list of moves to solve the Rubik's Cube using [Korf's Algorithm](http://en.wikipedia.org/wiki/Optimal_solutions_for_Rubik%27s_Cube#Korf.27s_Algorithm).

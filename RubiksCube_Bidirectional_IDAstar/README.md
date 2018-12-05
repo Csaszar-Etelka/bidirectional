@@ -1,6 +1,4 @@
-Bi-directional search applied to  Pacman and Rubik’s cube problem.
 
-************************************************************************************
 Bidirectional Iterative Deepening A* Rubik's Cube Solver
 ==========
 
@@ -10,9 +8,6 @@ Bidirectional Iterative Deepening A* Rubik's Cube Solver
 [Shubham Gondane](https://github.com/ShubhamGondane)
 ASU CSE571 - Artificial Intelligence "Fall 2018" "Bidirectional Search to Solve Rubik's Cube"
 
-
-[Bob Nisco](https://github.com/BobNisco), [Mike Hunter](https://github.com/acer149) |
-Marist College - CMSC 404 - Artificial Intelligence Project
 
 
 Problem
